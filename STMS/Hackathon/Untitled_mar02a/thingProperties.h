@@ -5,9 +5,9 @@
 
 const char DEVICE_LOGIN_NAME[]  = "78ab9386-28ad-4fe7-90f0-530f0b3df8d5";  // Device ID; // Enter device ID
 
-const char SSID[]               = "OPPOReno8T5G";    // Network SSID (name)
-const char PASS[]               = "OPPO8T5G";    // Network password (use for WPA, or use as key for WEP)
-const char DEVICE_KEY[]  = "XR2eMUIGk5IECQ@mH#x7s5cws";    // Secret device password
+const char SSID[]               = "*************";    // Network SSID (name)
+const char PASS[]               = "********";    // Network password (use for WPA, or use as key for WEP)
+const char DEVICE_KEY[]  = "****************";    // Secret device password
 
 void onMessageChange();
 void onUltraSonicChange();
