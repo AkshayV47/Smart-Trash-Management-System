@@ -2,10 +2,10 @@
 #include <WiFi.h>
 
 // WiFi and device credentials
-const char SSID[] = "OPPOReno8T5G";          // Network SSID
-const char PASS[] = "OPPO8T5G";              // Network password
-const char DEVICE_ID[] = "78ab9386-28ad-4fe7-90f0-530f0b3df8d5";  // Device ID
-const char SECRET_KEY[] = "XR2eMUIGk5IECQ@mH#x7s5cws";           // Secret Key
+const char SSID[] = "*********";          // Network SSID
+const char PASS[] = "**********";              // Network password
+const char DEVICE_ID[] = "***********************";  // Device ID
+const char SECRET_KEY[] = "*******************";           // Secret Key
 
 // Ultrasonic sensor pins
 const int trigPin = D6;  // Trigger pin
