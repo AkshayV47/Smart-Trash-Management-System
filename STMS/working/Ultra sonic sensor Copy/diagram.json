@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "author": "Kamali Sri",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 9.6, "left": -4.76, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -56.1, "left": -196.1, "attrs": {} },
+    { "type": "wokwi-lcd2004", "id": "lcd1", "top": -174.44, "left": 102.4, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc1", "top": 19.96, "left": 297.6, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd1", "top": 48, "left": 162.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:12", "ultrasonic1:TRIG", "green", [ "v0", "h-95.85" ] ],
+    [ "esp:14", "ultrasonic1:ECHO", "green", [ "h0" ] ],
+    [ "esp:5", "lcd1:E", "green", [ "h0" ] ],
+    [ "esp:17", "lcd1:D4", "green", [ "h0" ] ],
+    [ "esp:16", "lcd1:D5", "green", [ "h0" ] ],
+    [ "esp:4", "lcd1:D6", "green", [ "h0" ] ],
+    [ "esp:0", "lcd1:D7", "green", [ "h0" ] ],
+    [ "gnd1:GND", "lcd1:RW", "black", [ "v0" ] ],
+    [ "lcd1:A", "vcc1:VCC", "green", [ "v76.8", "h38.3" ] ],
+    [ "lcd1:K", "gnd1:GND", "green", [ "v0" ] ],
+    [ "lcd1:RS", "esp:18", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

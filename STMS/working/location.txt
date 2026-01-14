@@ -1,0 +1,19 @@
+Location 1 :
+lat : 10.769507082526237
+lon : 78.61346777795491
+
+Location 2 :
+lat : 10.797762141846832 
+lon : 78.67999504758885
+
+location 3 :
+lat : 10.852421120459773
+lon : 78.6910891616934
+
+location 4 :
+lat : 10.830702122322915
+lon : 78.7180784088818
+
+link : https://wokwi.com/projects/427656631196907521
+
+There is power cut in my home, plz rectify as soon as possible
