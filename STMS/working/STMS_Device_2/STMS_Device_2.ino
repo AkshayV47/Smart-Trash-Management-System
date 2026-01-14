@@ -2,10 +2,10 @@
 #define BLYNK_TEMPLATE_NAME "STMS Device 2"
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-char auth[] = "-3JeUffitSdEzVrbhWyAmeLd1OaXglpW"; 
+char auth[] = "****************************"; 
 
-char ssid[] = "OPPOReno8T5G";
-char pass[] = "OPPO8T5G";
+char ssid[] = "**************";
+char pass[] = "******";
 #define TRIG_PIN D6
 #define ECHO_PIN D7
 #define LEVEL_GAUGE V0
