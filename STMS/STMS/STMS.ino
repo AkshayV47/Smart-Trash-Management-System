@@ -2,9 +2,9 @@
 #define BLYNK_TEMPLATE_NAME "STMS Device 2"
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-char auth[] = "-3JeUffitSdEzVrbhWyAmeLd1OaXglpW"; 
-char ssid[] = "OPPOReno8T5G";
-char pass[] = "OPPO8T5G";
+char auth[] = "*********************"; 
+char ssid[] = "*********";
+char pass[] = "*************";
 #define TRIG_PIN D6
 #define ECHO_PIN D7
 #define WATER_LEVEL_GAUGE V0
@@ -57,4 +57,5 @@ BLYNK_WRITE(CALL_SWITCH) { // Call switch handler
     callSent = false;
     Blynk.virtualWrite(CALL_STATUS, "Call not sent"); // Update status to indicate call has not been sent
   }
+
 }
